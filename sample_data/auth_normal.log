@@ -1,0 +1,10 @@
+Nov  5 08:00:03 lab-server sshd[1101]: Accepted password for analyst from 192.0.2.15 port 51001 ssh2
+Nov  5 08:05:11 lab-server sshd[1102]: Failed password for analyst from 192.0.2.15 port 51002 ssh2
+Nov  5 08:05:18 lab-server sshd[1103]: Accepted password for analyst from 192.0.2.15 port 51003 ssh2
+Nov  5 08:12:44 lab-server sshd[1104]: Accepted publickey for deploy from 192.0.2.31 port 51004 ssh2
+Nov  5 08:20:00 lab-server sudo: analyst : TTY=pts/0 ; PWD=/home/analyst ; USER=root ; COMMAND=/usr/bin/systemctl status nginx
+Nov  5 08:30:05 lab-server sshd[1105]: Invalid user test from 198.51.100.77 port 52001
+Nov  5 08:30:12 lab-server sshd[1106]: Failed password for invalid user test from 198.51.100.77 port 52002 ssh2
+Nov  5 08:30:20 lab-server sshd[1107]: Connection closed by authenticating user test 198.51.100.77 port 52003 [preauth]
+Nov  5 09:00:00 lab-server sshd[1108]: Accepted password for analyst from 192.0.2.15 port 51005 ssh2
+Nov  5 09:04:11 lab-server sshd[1109]: session opened for user analyst by (uid=0)

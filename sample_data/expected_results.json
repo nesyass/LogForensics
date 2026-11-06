@@ -1,0 +1,96 @@
+{
+  "dataset": "synthetic",
+  "description": "Expected detection results for the bundled LogForensics sample dataset. Used by tests/test_sample_dataset.py. All IP addresses belong to documentation ranges (RFC 5737) and contain no real user or organization data.",
+  "analysis": {
+    "year": 2026,
+    "timezone": "Asia/Jakarta",
+    "files": [
+      "auth_normal.log",
+      "auth_suspicious.log",
+      "web_access.log"
+    ]
+  },
+  "expected_parse_errors": 0,
+  "expected_total_alerts": 13,
+  "expected_alerts": [
+    {
+      "rule_id": "LF-001",
+      "source_ip": "203.0.113.50",
+      "event_count": 10
+    },
+    {
+      "rule_id": "LF-002",
+      "source_ip": "203.0.113.50",
+      "event_count": 13
+    },
+    {
+      "rule_id": "LF-003",
+      "source_ip": "203.0.113.50",
+      "event_count": 5
+    },
+    {
+      "rule_id": "LF-003",
+      "source_ip": "203.0.113.50",
+      "event_count": 5
+    },
+    {
+      "rule_id": "LF-004",
+      "source_ip": "203.0.113.66",
+      "event_count": 10
+    },
+    {
+      "rule_id": "LF-005",
+      "source_ip": "192.0.2.25",
+      "matched_path": ".env",
+      "event_count": 1
+    },
+    {
+      "rule_id": "LF-005",
+      "source_ip": "192.0.2.25",
+      "matched_path": "admin",
+      "event_count": 1
+    },
+    {
+      "rule_id": "LF-005",
+      "source_ip": "203.0.113.66",
+      "matched_path": ".env",
+      "event_count": 1
+    },
+    {
+      "rule_id": "LF-005",
+      "source_ip": "203.0.113.66",
+      "matched_path": "admin",
+      "event_count": 1
+    },
+    {
+      "rule_id": "LF-005",
+      "source_ip": "203.0.113.66",
+      "matched_path": "backup",
+      "event_count": 1
+    },
+    {
+      "rule_id": "LF-005",
+      "source_ip": "203.0.113.66",
+      "matched_path": "config",
+      "event_count": 1
+    },
+    {
+      "rule_id": "LF-005",
+      "source_ip": "203.0.113.66",
+      "matched_path": "phpmyadmin",
+      "event_count": 1
+    },
+    {
+      "rule_id": "LF-005",
+      "source_ip": "203.0.113.66",
+      "matched_path": "wp-admin",
+      "event_count": 1
+    }
+  ],
+  "control_checks": [
+    "auth_normal.log must not produce LF-001, LF-002 or LF-003 alerts.",
+    "198.51.100.20 generated only two 404 responses and must not produce an LF-004 alert.",
+    "All evidence_event_ids must resolve to parsed events.",
+    "Every alert must trace to a source file and source line."
+  ]
+}

@@ -1,0 +1,19 @@
+Nov  5 08:58:02 lab-server sshd[1201]: Accepted password for analyst from 192.0.2.15 port 51101 ssh2
+Nov  5 09:00:00 lab-server sshd[1202]: Failed password for analyst from 192.0.2.15 port 51102 ssh2
+Nov  5 09:00:04 lab-server sshd[1203]: Failed password for analyst from 192.0.2.15 port 51103 ssh2
+Nov  5 09:00:09 lab-server sshd[1204]: Accepted password for analyst from 192.0.2.15 port 51104 ssh2
+Nov  5 09:00:12 lab-server sshd[1210]: Failed password for invalid user admin from 203.0.113.50 port 51234 ssh2
+Nov  5 09:00:19 lab-server sshd[1211]: Failed password for root from 203.0.113.50 port 51235 ssh2
+Nov  5 09:00:25 lab-server sshd[1212]: Failed password for invalid user oracle from 203.0.113.50 port 51236 ssh2
+Nov  5 09:00:31 lab-server sshd[1213]: Failed password for invalid user test from 203.0.113.50 port 51237 ssh2
+Nov  5 09:00:38 lab-server sshd[1214]: Failed password for invalid user ubuntu from 203.0.113.50 port 51238 ssh2
+Nov  5 09:00:44 lab-server sshd[1215]: Failed password for invalid user postgres from 203.0.113.50 port 51239 ssh2
+Nov  5 09:00:50 lab-server sshd[1216]: Failed password for admin from 203.0.113.50 port 51240 ssh2
+Nov  5 09:00:57 lab-server sshd[1217]: Failed password for root from 203.0.113.50 port 51241 ssh2
+Nov  5 09:01:03 lab-server sshd[1218]: Failed password for test from 203.0.113.50 port 51242 ssh2
+Nov  5 09:01:10 lab-server sshd[1219]: Failed password for ubuntu from 203.0.113.50 port 51243 ssh2
+Nov  5 09:01:16 lab-server sshd[1220]: Failed password for oracle from 203.0.113.50 port 51244 ssh2
+Nov  5 09:01:22 lab-server sshd[1221]: Failed password for admin from 203.0.113.50 port 51245 ssh2
+Nov  5 09:02:41 lab-server sshd[1222]: Accepted password for analyst from 203.0.113.50 port 51246 ssh2
+Nov  5 09:02:55 lab-server sudo: analyst : TTY=pts/1 ; PWD=/home/analyst ; USER=root ; COMMAND=/usr/bin/cat /etc/shadow
+Nov  5 09:06:10 lab-server sshd[1223]: Accepted password for deploy from 192.0.2.31 port 51105 ssh2
